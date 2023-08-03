@@ -4,92 +4,38 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <section className={styles.header}>
+        <div className={styles.nav}>
+          <Image
+            src='/logo.png'
+            className={styles.logo}
+            alt='logo'
+            width={250}
+            height={200}
+          />
+          <div className={styles.navLinks}>
+            <span className={styles.navLink}>Serviços</span>
+            <span className={styles.navLink}>O Studio</span>
+            <span className={styles.navLink}>Contato</span>
+            <span className={styles.navLink}>Trajetória</span>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <div className={styles.content}>
+          <div className={styles.contentText}>
+            <h1>PRISCILA PONTES</h1>
+            <h3>Olá! Sou Priscila Pontes, apaixonada por unhas e trabalho nessa área desde 2019. Meu objetivo é oferecer serviços de qualidade e cuidado personalizado para cada cliente. Busco aprimorar minhas habilidades constantemente, e já concluí 4 cursos presenciais e 3 online, incluindo o renomado curso &quot;Instrutor de Sucesso &quot; ministrado por Katiane Brito. Estou sempre em busca de novas técnicas e tendências para garantir que minhas clientes tenham uma experiência única e resultados deslumbrantes. Conte comigo para cuidar das suas unhas e realçar sua beleza. Estou ansiosa para recebê-lo(a) em meu espaço e proporcionar um serviço excepcional!</h3>
+          </div>
+          <div className={styles.imgHeader}>
+            <Image
+              src='/imgHeader.png'
+              className={styles.imgHeader}
+              alt='Priscila Pontes'
+              width={775}
+              height={700}
+            />
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
