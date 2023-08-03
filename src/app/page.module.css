@@ -1,30 +1,59 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
   min-height: 100vh;
 }
 
 .header{
-  margin: 1rem;
+  padding: 1rem;
   background-color: #FAF1EC;
+}
+
+.logo{
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .nav{
   display: flex;
+  justify-content: center;
+  min-height: 12rem;
+
+  font-family: --font-titles;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(var(--titles-secundary-rgb))
+
 }
 
 .navLinks{
   display: flex;
   gap: 0.8rem;
+
 }
 
 .content{
   display: flex;
 }
 
+.imgHeader{
+  width: 774px;
+  right: 0;
+  left: auto;
+  position: absolute !important;
+  height: 100% !important;
+  top: 0 !important;
+  object-fit: cover;
+}
+
+.contentText{
+  width: 496px;
+  min-height: 422px;
+  font-size: 3rem;
+  font-weight: 400;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -122,9 +151,6 @@
   transform: translateZ(0);
 }
 
-.logo {
-  position: relative;
-}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -227,15 +253,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
 
 @keyframes rotate {
   from {
