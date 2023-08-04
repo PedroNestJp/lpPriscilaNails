@@ -1,8 +1,5 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
+  min-height: 774px;
 }
 
 .header{
@@ -11,20 +8,17 @@
 }
 
 .logo{
-  position: absolute;
-  left: 0;
-  top: 0;
+  width: 15rem;
+  margin-right: 10rem;
 }
 
 .nav{
   display: flex;
-  justify-content: center;
   min-height: 12rem;
-
   font-family: --font-titles;
   font-size: 1.2rem;
   font-weight: 700;
-  color: rgb(var(--titles-secundary-rgb))
+  color: rgb(var(--titles-secundary-rgb));
 
 }
 
@@ -36,6 +30,7 @@
 
 .content{
   display: flex;
+
 }
 
 .imgHeader{
@@ -48,11 +43,24 @@
   object-fit: cover;
 }
 
-.contentText{
+.aboutMe{
   width: 496px;
   min-height: 422px;
   font-size: 3rem;
   font-weight: 400;
+  font-family: --font-titles;
+  margin-left: calc(((100% - 940px) / 2) + -29px);
+  color: rgb(var(--titles-secundary-rgb));
+}
+
+.contentTitle{
+  font-family: --font-titles;
+}
+
+.aboutMe p{
+  font-family: --fonte-texts;
+  color: #111111;
+
 }
 .description {
   display: inherit;
