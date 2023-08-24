@@ -1,66 +1,66 @@
 .main {
   min-height: 774px;
+  background-color: #faf1ec;
 }
 
-.header{
+.header {
   padding: 1rem;
-  background-color: #FAF1EC;
 }
 
-.logo{
+.logo {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 15rem;
-  margin-right: 10rem;
 }
 
-.nav{
+.nav {
   display: flex;
+  justify-content: center;
   min-height: 12rem;
   font-family: --font-titles;
   font-size: 1.2rem;
   font-weight: 700;
   color: rgb(var(--titles-secundary-rgb));
-
+  position: relative;
 }
 
-.navLinks{
+.navLinks {
   display: flex;
   gap: 0.8rem;
-
 }
 
-.content{
+.content {
   display: flex;
+  /* max-width: 1100px; */
+  justify-content: space-around;
+  align-items: center;
 
 }
 
-.imgHeader{
-  width: 774px;
-  right: 0;
-  left: auto;
-  position: absolute !important;
-  height: 100% !important;
-  top: 0 !important;
-  object-fit: cover;
+.imgHeader {
+  margin-left: 30rem;
 }
 
-.aboutMe{
+.aboutMe {
+  margin-right: 20rem;
   width: 496px;
   min-height: 422px;
   font-size: 3rem;
   font-weight: 400;
   font-family: --font-titles;
-  margin-left: calc(((100% - 940px) / 2) + -29px);
   color: rgb(var(--titles-secundary-rgb));
+  position: absolute;
 }
 
-.contentTitle{
+.contentTitle {
   font-family: --font-titles;
 }
 
-.aboutMe p{
+.aboutMe p {
+  font-size: 1.5rem;
   font-family: --fonte-texts;
   color: #111111;
-
 }
 .description {
   display: inherit;
@@ -152,7 +152,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -261,7 +261,6 @@
   }
 }
 
-
 @keyframes rotate {
   from {
     transform: rotate(360deg);
@@ -269,4 +268,20 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+@media (max-width: 1265px) {
+  .imgHeader {
+  }
+}
+
+.subTitle{
+  padding: 20rem;
+  background-image: linear-gradient(#ebc9b7, white);
+  width: 400px;
+}
+
+.circle{
+  width: 20rem;
+  height: 20rem
 }
