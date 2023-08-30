@@ -1,8 +1,11 @@
 :root {
   --font-titles:'Playfair Display', serif !important;
-  --fonte-texts:'Raleway',sans-serif;
+  --font-texts:'Raleway',sans-serif;
   --titles-secundary-rgb: 251, 163, 153;
   --border-radius: 1rem;
+  --font-titles-color2:#cd825b;
+  --h1-1: 5rem;
+  --width-xl:1150px
 }
 
 

@@ -45,8 +45,8 @@ export default function Home() {
       </section>
       <section>
         <div className={styles.section1}>
-          <h1>Unhas em Gel</h1>
-          <div className={styles.content}>
+          <h1 className={styles.title2}>Unhas em Gel</h1>
+          <div className={styles.section1Content}>
             <Image
               src='/fourHands.jpg'
               className={styles.imgSection1}
@@ -57,9 +57,9 @@ export default function Home() {
             </Image>
             <div className={styles.circle}></div>
             <div className={styles.subTitle}>
-            Aplicação de unha em gel
+            <h2 className={styles.subTitleText}>Aplicação de unha em gel</h2>
             </div>
-            <p>
+            <p className={styles.section1P}>
             Se você deseja unhas mais longas, duráveis e com aspecto natural, nossas técnicas de unhas em gel são perfeitas para você. Utilizamos produtos de alta qualidade para aplicar o gel sobre as unhas naturais ou utilizando tips, proporcionando um resultado deslumbrante e personalizado.
             </p>
             <a href="http://">
