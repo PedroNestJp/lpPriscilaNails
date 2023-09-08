@@ -47,29 +47,130 @@ export default function Home() {
         <div className={styles.section1}>
           <h1 className={styles.title2}>Unhas em Gel</h1>
           <div className={styles.section1Content}>
-            <Image
-              src='/fourHands.jpg'
-              className={styles.imgSection1}
-              alt='imgUnhas'
-              width={550}
-              height={400}
-            >
-            </Image>
-            <div className={styles.circle}></div>
-            <div className={styles.subTitle}>
-            <h2 className={styles.subTitleText}>Aplicação de unha em gel</h2>
+            <div>
+              <Image
+                src='/fourHands.jpg'
+                className={styles.imgSection1}
+                alt='imgUnhas'
+                width={550}
+                height={400}
+              >
+              </Image>
+              {/* <div className={styles.circle}></div> */}
             </div>
-            <p className={styles.section1P}>
-            Se você deseja unhas mais longas, duráveis e com aspecto natural, nossas técnicas de unhas em gel são perfeitas para você. Utilizamos produtos de alta qualidade para aplicar o gel sobre as unhas naturais ou utilizando tips, proporcionando um resultado deslumbrante e personalizado.
-            </p>
-            <a href="http://">
-              <button className={styles.btn}>
-                ENTRE EM CONTTATO
-              </button>
-            </a>
+            <div>
+              <div className={styles.subTitle}>
+                <h2 className={styles.subTitleText}>Aplicação de unha em gel</h2>
+              </div>
+              <p className={styles.section1P}>
+                Se você deseja unhas mais longas, duráveis e com aspecto natural, nossas técnicas de unhas em gel são perfeitas para você. Utilizamos produtos de alta qualidade para aplicar o gel sobre as unhas naturais ou utilizando tips, proporcionando um resultado deslumbrante e personalizado.
+              </p>
+              <a href="http://">
+                <button className={styles.btn}>
+                  ENTRE EM CONTTATO
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
+      <section>
+        <div className={styles.section2}>
+          <h1 className={styles.title2}> Nossos Serviços </h1>
+          <p>
+            Oferecemos serviços especializados para cuidar das suas unhas e realçar sua beleza.
+            Com alto padrão, estamos prontas para proporcionar uma experiência excepcional e garantir resultados incríveis. Confira abaixo os serviços que oferecemos:
+          </p>
+          <div className={styles.cards}>
+            <div className={styles.card}>
+              <Image
+                src='/fourHands.jpg'
+                className={styles.imgCard}
+                alt='imgCard'
+                width={50}
+                height={50}
+              >
+              </Image>
+              <p>
+                ALONGAMENTO EM GEL SOBRE A TIP
+              </p>
+            </div>
+            <div className={styles.card}>
+              <Image
+                src='/fourHands.jpg'
+                className={styles.imgCard}
+                alt='imgCard'
+                width={50}
+                height={50}
+              >
+              </Image>
+              <p>
+                ALONGAMENTO EM GEL SOBRE A TIP
+              </p>
+            </div>
+            <div className={styles.card}>
+              <Image
+                src='/fourHands.jpg'
+                className={styles.imgCard}
+                alt='imgCard'
+                width={50}
+                height={50}
+              >
+              </Image>
+              <p>
+                ALONGAMENTO EM GEL SOBRE A TIP
+              </p>
+            </div>
+            <div className={styles.card}>
+              <Image
+                src='/fourHands.jpg'
+                className={styles.imgCard}
+                alt='imgCard'
+                width={50}
+                height={50}
+              >
+              </Image>
+              <p>
+                ALONGAMENTO EM GEL SOBRE A TIP
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section>
+        <div className={styles.section3}>
+          <div className={styles.content3}>
+            <Image
+              src='/fourHands.jpg'
+              className={styles.imgCard}
+              alt='imgCard'
+              width={300}
+              height={600}
+            >
+            </Image>
+            <div className="aboutSudio">
+              <h1>
+                Sobre o Stúdio
+              </h1>
+              <p>
+                Somos um estúdio especializado em cuidados com as unhas e estamos aqui para oferecer a você uma experiência única e excepcional. Nosso objetivo é proporcionar um ambiente acolhedor, relaxante e luxuoso, onde você possa se sentir mimada e sair com unhas deslumbrantes.
+              </p>
+            </div>
+            <div className="aboutSudio2">
+              <p>
+                Nosso estúdio está equipado com instalações modernas e confortáveis, criando um ambiente relaxante e sofisticado. Cada detalhe foi pensado para proporcionar uma experiência agradável, desde a música suave até o atendimento personalizado de nossa equipe.
+              </p>
+              <a href="http://">
+                <button className={styles.btn}>
+                  ENTRE EM CONTTATO
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   )
 }
