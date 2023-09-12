@@ -24,6 +24,10 @@
     display: flex;
     gap: 0.8rem;
   }
+
+  .navLink:hover{
+    color: var(--title2);
+  }
   
   .content {
     display: flex;
@@ -56,4 +60,5 @@
     font-weight: 300;
     font-family: var(--texts);
     color: var(--textsCol);
+    text-indent: 1rem;
   }
