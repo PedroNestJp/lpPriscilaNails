@@ -1,0 +1,59 @@
+.header {
+    padding: 1rem;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    min-height: 12rem;
+    font-family: var(--titles);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--title1);
+    position: relative;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 0.8rem;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .imgHeader {
+    margin-left: 30rem;
+  }
+
+  .aboutMe {
+    margin-right: 20rem;
+    width: 496px;
+    min-height: 422px;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--texts);
+    color: var(--textsCol);
+    position: absolute;
+  }
+  
+  .contentTitle {
+    font-family: var(--titles);
+    color: var(--title1);
+  }
+  
+  .aboutMe p {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: var(--texts);
+    color: var(--textsCol);
+  }
