@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
-      <Section1 />
+      {/* <Section1 />
       <Section2 />
       <Section3 />
-      <Footer />
+      <Footer /> */}
     </main>
   )
 }
