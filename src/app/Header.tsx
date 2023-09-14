@@ -11,6 +11,7 @@ export default function Header() {
                     alt='logo'
                     width={250}
                     height={200}
+                    
                 />
                 <div className={styles.navLinks}>
                     <span className={styles.navLink}>
@@ -29,11 +30,11 @@ export default function Header() {
             </nav>
             <div className={styles.content}>
                 <Image
-                    src='/imgHeader.png'
+                    src='/imgHeader2.png'
                     className={styles.imgHeader}
                     alt='Priscila Pontes'
-                    width={775}
-                    height={775}
+                    width={600}
+                    height={600}
 
                 />
                 <div className={styles.aboutMe}>

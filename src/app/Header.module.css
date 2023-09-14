@@ -1,64 +1,121 @@
 .header {
-    padding: 1rem;
-  }
-  
+  padding: 1rem;
+}
+
+.logo {
+  width: 15rem;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* @media (min-width: 700px) {
   .logo {
     position: absolute;
     left: 0;
     top: 0;
-    width: 15rem;
   }
-  
-  .nav {
-    display: flex;
-    justify-content: center;
-    min-height: 12rem;
-    font-family: var(--titles);
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--title1);
-    position: relative;
-  }
-  
-  .navLinks {
-    display: flex;
-    gap: 0.8rem;
-  }
+} */
 
-  .navLink:hover{
-    color: var(--title2);
-  }
-  
+.nav {
+  display: flex;
+  justify-content: center;
+  min-height: 12rem;
+  font-family: var(--titles);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--title1);
+  position: relative;
+}
+
+.navLinks {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.navLink:hover {
+  color: var(--title2);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.imgHeader {
+  margin-left: 30rem;
+}
+
+.aboutMe p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--textsCol);
+  text-indent: 1rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 800px) {
   .content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
   }
-  
   .imgHeader {
-    margin-left: 30rem;
+    margin-left: 10rem;
   }
+}
 
-  .aboutMe {
-    margin-right: 20rem;
-    width: 496px;
-    min-height: 422px;
-    font-size: 3rem;
-    font-weight: 400;
-    font-family: var(--texts);
-    color: var(--textsCol);
-    position: absolute;
-  }
-  
+@media (max-width: 630px) {
   .contentTitle {
-    font-family: var(--titles);
-    color: var(--title1);
+    font-size: 2rem;
   }
-  
   .aboutMe p {
-    font-size: 1rem;
-    font-weight: 300;
-    font-family: var(--texts);
-    color: var(--textsCol);
-    text-indent: 1rem;
+    font-size: 0.8rem;
+    padding-right: 12rem;
   }
+  .imgHeader {
+    width: 400px;
+    height: auto;
+  }
+  .header .nav {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contentTitle {
+    font-size: 2rem;
+  }
+  .aboutMe p {
+    font-size: 0.8rem;
+    padding-right: 15rem;
+  }
+  .imgHeader {
+    width: 350px;
+    height: auto;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 400px) {
+  .imgHeader {
+    width: 300px;
+    height: auto;
+    margin-left: 4rem;
+  }
+  .aboutMe p {
+    font-size: 0.7rem;
+    padding-right: 18rem;
+  }
+}
+
+.aboutMe {
+  width: 496px;
+  font-size: 3rem;
+  color: var(--textsCol);
+  position: absolute;
+}
+
+.contentTitle {
+  font-family: var(--titles);
+  color: var(--title1);
+  line-height: 85%;
+}
