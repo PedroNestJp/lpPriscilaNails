@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import styles from './Section1.module.css'
+import styles from './styles/Section1.module.css'
 import React from 'react'
+import Btn from './btn'
 
 export const Section1 = () => {
     return (
@@ -23,14 +24,14 @@ export const Section1 = () => {
                         <div className={styles.subTitle}>
                             <h2 className={styles.subTitleText}>Aplicação</h2>
                         </div>
-                        <p className={styles.section1P}>
-                            Se você deseja unhas mais longas, duráveis e com aspecto natural, nossas técnicas de unhas em gel são perfeitas para você. Utilizamos produtos de alta qualidade para aplicar o gel sobre as unhas naturais ou utilizando tips, proporcionando um resultado deslumbrante e personalizado.
+                        <p>
+                            Se você deseja unhas mais longas, duráveis e com aspecto
+                            natural, nossas técnicas de unhas em gel são perfeitas para
+                            você. Utilizamos produtos de alta qualidade para aplicar o gel
+                            sobre as unhas naturais ou utilizando tips, proporcionando um
+                            resultado deslumbrante e personalizado.
                         </p>
-                        <a href="http://">
-                            <button className={styles.btn}>
-                                ENTRE EM CONTTATO
-                            </button>
-                        </a>
+                        <Btn/>
                     </div>
                 </div>
             </div>

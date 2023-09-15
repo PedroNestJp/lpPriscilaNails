@@ -58,6 +58,9 @@
   .aboutMe{
     width: 22rem;
   }
+  .aboutMe p {
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 750px) {
   .aboutMe p{

@@ -1,12 +1,13 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './styles/Section2.module.css'
 import React from 'react'
 
 export const Section2 = () => {
     return (
         <section>
         <div className={styles.section2}>
-          <h1 className={styles.title2}> Nossos Serviços </h1>
+          <h1 > Nossos Serviços </h1>
+          <div className={styles.line}></div>
           <p>
             Oferecemos serviços especializados para cuidar das suas unhas e realçar sua beleza.
             Com alto padrão, estamos prontas para proporcionar uma experiência excepcional e garantir resultados incríveis. Confira abaixo os serviços que oferecemos:
@@ -14,7 +15,7 @@ export const Section2 = () => {
           <div className={styles.cards}>
             <div className={styles.card}>
               <Image
-                src='/fourHands.jpg'
+                src='/twoHands.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
                 width={50}
@@ -27,7 +28,7 @@ export const Section2 = () => {
             </div>
             <div className={styles.card}>
               <Image
-                src='/fourHands.jpg'
+                src='/femaleFeet.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
                 width={50}
@@ -35,7 +36,20 @@ export const Section2 = () => {
               >
               </Image>
               <p>
-                ALONGAMENTO EM GEL SOBRE A TIP
+              MANUTENÇÃO
+              </p>
+            </div>
+            <div className={styles.card}>
+              <Image
+                src='/twoHandsFlower.jpg'
+                className={styles.imgCard}
+                alt='imgCard'
+                width={50}
+                height={50}
+              >
+              </Image>
+              <p>
+              PEDICURE
               </p>
             </div>
             <div className={styles.card}>
@@ -48,20 +62,7 @@ export const Section2 = () => {
               >
               </Image>
               <p>
-                ALONGAMENTO EM GEL SOBRE A TIP
-              </p>
-            </div>
-            <div className={styles.card}>
-              <Image
-                src='/fourHands.jpg'
-                className={styles.imgCard}
-                alt='imgCard'
-                width={50}
-                height={50}
-              >
-              </Image>
-              <p>
-                ALONGAMENTO EM GEL SOBRE A TIP
+              MANICURE
               </p>
             </div>
           </div>

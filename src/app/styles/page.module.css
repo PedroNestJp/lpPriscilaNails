@@ -1,32 +1,16 @@
 .main {
-  min-height: 774px;
   background-color: var(--bg1);
   font-family: var(--texts);
 }
 
-
-
-.circle {
+/* .circle {
   position: absolute;
   width: 459px;
   height: 459px;
   border-radius: 50%;
   background-image: none;
   background-color: #f8e4cf;
-}
+} */
 
 
 
-.cards {
-  display: flex;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-.content3 {
-  display: flex;
-}
