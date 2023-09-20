@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './styles/Section1.module.css'
 import React from 'react'
-import Btn from './btn'
+import Btn from './Button'
 
 export const Section1 = () => {
     return (

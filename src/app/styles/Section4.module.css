@@ -1,0 +1,26 @@
+.content{
+    background-color: var(--bg4);
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+}
+.content h1{
+    color: var(--title1);
+    font-family: var(--titles);
+}
+.content li{
+    color: var(--title1);
+}
+
+@media (max-width: 630px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+.container3{
+    display: flex;
+    max-width: 380px;
+    flex-direction: column;
+    text-align: center;
+}
