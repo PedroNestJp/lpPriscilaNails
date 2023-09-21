@@ -3,4 +3,58 @@
     padding: 1rem;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
 }
+
+.content h2{
+    color: var(--title3);
+}
+
+.content p{
+    color: var(--title1);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.content1{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.content1 > p{
+    max-width: 220px;
+}
+
+.content2{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    gap: 1rem;
+
+}
+.social a{
+    font-size: 2rem;
+    color: var(--title1);
+}
+
+@media (max-width:630px) {
+    .imgSection6{
+        width: 20rem;
+        height: auto;
+    }    
+}
+@media (max-width:500px) {
+    .imgSection6{
+        width: 15rem;
+        height: auto;
+    }    
+}
+
