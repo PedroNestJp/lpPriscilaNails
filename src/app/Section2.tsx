@@ -18,8 +18,8 @@ export const Section2 = () => {
                 src='/twoHands.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
-                width={50}
-                height={50}
+                width={700}
+                height={700}
               >
               </Image>
               <p>
@@ -31,8 +31,8 @@ export const Section2 = () => {
                 src='/femaleFeet.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
-                width={50}
-                height={50}
+                width={700}
+                height={700}
               >
               </Image>
               <p>
@@ -44,8 +44,8 @@ export const Section2 = () => {
                 src='/twoHandsFlower.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
-                width={50}
-                height={50}
+                width={700}
+                height={700}
               >
               </Image>
               <p>
@@ -57,8 +57,8 @@ export const Section2 = () => {
                 src='/fourHands.jpg'
                 className={styles.imgCard}
                 alt='imgCard'
-                width={50}
-                height={50}
+                width={700}
+                height={700}
               >
               </Image>
               <p>

@@ -20,9 +20,30 @@
   --btnText: #A06D95;
   --btnHover:#f2cea7;
 
-  --border-radius: 1rem;
-  --h1: 5rem;
+  -radius: 1rem;
   --width-xl:1150px;
+
+  --bp-1:1100px;
+  --bp-2:900px;
+  --bp-3:750px;
+  --bp-4:650px;
+  --bp-5:500px;
+
+  --pad1:1rem;
+  --pad2:2rem;
+  --pad3:3rem;
+
+  --h1-g:3rem;
+  --h1-m:2.5rem;
+  --h1-p:2rem;
+  --h1-pp:1.3rem;
+
+  --p:1.4rem;
+  --p-g:1.2rem;
+  --p-m:1rem;
+  --p-p:0.8rem;
+  --p-pp:0.6rem;
+  --p-xp:0.5rem;
 }
 
 * {

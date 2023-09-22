@@ -7,8 +7,8 @@ export const Section1 = () => {
     return (
         <section>
             <div className={styles.section1}>
-                <h1 className={styles.title2}>Unhas em Gel</h1>
-                <div className={styles.section1Content}>
+                <h1>Unhas em Gel</h1>
+                <div className={styles.content}>
                     <div className={styles.container1}>
                         <Image
                             src='/fourHands.jpg'
@@ -22,7 +22,7 @@ export const Section1 = () => {
                     </div>
                     <div className={styles.container2}>
                         <div className={styles.subTitle}>
-                            <h2 className={styles.subTitleText}>Aplicação</h2>
+                            <h2 >Aplicação</h2>
                         </div>
                         <p>
                             Se você deseja unhas mais longas, duráveis e com aspecto

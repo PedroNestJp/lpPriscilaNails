@@ -16,7 +16,7 @@
 }
 .content3 h1{
     color: #cd825b;
-    font-size: 3rem;
+    font-size: var(--h1-g);
     font-weight: 700;
     font-family: var(--titles);
 }
@@ -25,7 +25,7 @@
     color: var(--textsCol);
     max-width: 29rem;
     line-height: 2;
-    font-size: 1.5rem;
+    font-size: var(--p-g);
 }
 
 .aboutStudio{
@@ -39,7 +39,7 @@
         flex-direction: column;
         
     } .content3 p{
-        font-size: small;
+        font-size: var(--p-p);
     }
     
 }
@@ -48,6 +48,6 @@
     .content3{
         flex-direction: column;
     } .content3 h1{
-        font-size: 2rem;
+        font-size: var(--h1-p);
     }
 }
